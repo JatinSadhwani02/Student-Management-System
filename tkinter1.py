@@ -25,17 +25,17 @@ class Student:
 
 
 
-		headinglbl=Label(root,text="Student Management System",font=("arial",24,"bold"),bg='yellow',fg='red')
+		headinglbl=Label(root,text="Student Management System",font=("arial",24,"bold"),bg='wheat',fg='red')
 		headinglbl.pack(side=TOP,fill=X)
 
 		#***********Frame-1***************
-		entry_frame=Frame(root,bd=5,relief='ridge',bg='red')
+		entry_frame=Frame(root,bd=5,relief='ridge',bg='wheat')
 		entry_frame.place(x=20,y=50,width=350,height=745)
 
 
 
 		#Labels of frame-1
-		reg_lbl=Label(entry_frame,text="Registration Form",font=("arial",20,"bold"),bg='yellow',fg='red')
+		reg_lbl=Label(entry_frame,text="Registration Form",font=("arial",20,"bold"),bg='wheat',fg='red')
 		reg_lbl.grid(row=0,columnspan=2)
 
 		roll_lbl=Label(entry_frame,text="Roll no.",font=("",13))
@@ -218,7 +218,7 @@ class Student:
 		#**********Frame-3 Button**************
 		
 
-		btn_frame=Frame(entry_frame,bd=5,relief='ridge',bg='red')
+		btn_frame=Frame(entry_frame,bd=5,relief='ridge',bg='wheat')
 		btn_frame.place(x=15,y=590,width=310,height=120)
 
 
@@ -236,7 +236,7 @@ class Student:
 
 
 		#***********Frame-2***************
-		data_frame=Frame(root,bd=5,relief='ridge',bg='red')
+		data_frame=Frame(root,bd=5,relief='ridge',bg='wheat')
 		data_frame.place(x=380,y=50,width=1145,height=745)
 
 
@@ -273,7 +273,7 @@ class Student:
 
 		#************Frame-3 Treeview***************
 
-		view_frame=Frame(data_frame,bd=5,relief='ridge',bg='red')
+		view_frame=Frame(data_frame,bd=5,relief='ridge',bg='wheat')
 		view_frame.place(x=20,y=100,width=1080,height=620)
 
 
